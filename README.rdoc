@@ -1,6 +1,13 @@
 = mechanize-downloader
 
-Description goes here.
+This is a mechanize plugin of donwload files wtih progress bar.
+
+== Usage
+
+        Mechanize.new {|agent|
+          agent.download(URL,PATH or IO)
+        }
+
 
 == Contributing to mechanize-downloader
  
